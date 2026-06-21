@@ -136,10 +136,11 @@ p {
 
 h1 {
   margin: 0;
-  max-width: 10ch;
+  max-width: 100%;
   font-size: clamp(4rem, 10vw, 8.5rem);
   line-height: 0.88;
   letter-spacing: 0;
+  white-space: nowrap;
 }
 
 h2 {
@@ -466,6 +467,7 @@ footer {
 
   h1 {
     font-size: clamp(3.4rem, 17vw, 5rem);
+    white-space: normal;
   }
 
   .intro-band,
