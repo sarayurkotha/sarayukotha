@@ -301,6 +301,43 @@ footer a:hover {
   color: var(--muted);
 }
 
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 0;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(8, 124, 127, 0.1);
+  color: var(--teal);
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.button.small {
+  min-height: 38px;
+  padding: 8px 14px;
+  border-color: var(--line);
+  color: var(--teal-dark);
+  background: transparent;
+  font-size: 0.82rem;
+}
+
+.button.small:hover {
+  background: rgba(8, 124, 127, 0.08);
+}
+
 .education-section,
 .virtual-section {
   max-width: none;
@@ -514,9 +551,7 @@ footer {
 }
 
 @media (max-width: 520px) {
-  .nav-links a:nth-child(2),
-  .nav-links a:nth-child(3),
-  .nav-links a:nth-child(4) {
+  .nav-links .nav-compact-hide {
     display: none;
   }
 

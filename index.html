@@ -25,10 +25,11 @@
       </a>
       <nav class="nav-links" aria-label="Page sections">
         <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#leadership">Extracurriculars</a>
+        <a class="nav-compact-hide" href="#education">Education</a>
+        <a class="nav-compact-hide" href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-compact-hide" href="#skills">Skills</a>
+        <a class="nav-compact-hide" href="#leadership">Extracurriculars</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -46,6 +47,7 @@
           </p>
           <div class="hero-actions" aria-label="Primary links">
             <a class="button primary" href="./Sarayu_Kotha_Resume.docx">Download Resume</a>
+            <a class="button secondary" href="#projects">View Projects</a>
             <a class="button secondary" href="mailto:sarayu.r.kotha@gmail.com">Email Sarayu</a>
             <a class="button secondary" href="https://www.linkedin.com/in/sarayurkotha">LinkedIn</a>
           </div>
@@ -196,6 +198,73 @@
               </article>
             </div>
           </section>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="section-kicker">Personal Projects</p>
+          <h2 id="projects-title">Applied data &amp; AI work</h2>
+        </div>
+        <div class="focus-grid projects-grid">
+          <article class="focus-card project-card">
+            <span class="card-index">01</span>
+            <h3>Cross-Border Payment Cost Analyser</h3>
+            <p>
+              Analyses the cost and efficiency of international payment corridors using
+              World Bank Remittance Prices data, identifying which routes are most
+              expensive, why, and what digital providers are doing differently.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Excel</span>
+              <span class="tag">PivotTables</span>
+              <span class="tag">Data Analysis</span>
+            </div>
+            <div class="project-links">
+              <a class="button secondary small" href="https://github.com/sarayurkotha/cross-border-payment-cost-analyser">View Code</a>
+              <a class="button secondary small" href="https://github.com/sarayurkotha/cross-border-payment-cost-analyser#readme">README</a>
+              <a class="button secondary small" href="https://github.com/sarayurkotha/cross-border-payment-cost-analyser/raw/main/analysis/CrossBorderPayments_Analysis.xlsx">Download Workbook</a>
+              <a class="button secondary small" href="https://github.com/sarayurkotha/cross-border-payment-cost-analyser/blob/main/ARTICLE.md">Read Article</a>
+            </div>
+          </article>
+          <article class="focus-card project-card">
+            <span class="card-index">02</span>
+            <h3>Prompt Engineering Study for Finance</h3>
+            <p>
+              Tests 12-15 different prompt techniques on a financial analysis task and
+              ranks which approaches produce the most consistent, accurate, structured
+              output, built out as a leaderboard.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">LLMs</span>
+              <span class="tag">Prompt Engineering</span>
+            </div>
+            <div class="project-links">
+              <a class="button secondary small" href="https://github.com/sarayurkotha/prompt-engineering-study-finance">View Code</a>
+              <a class="button secondary small" href="https://github.com/sarayurkotha/prompt-engineering-study-finance#readme">README</a>
+              <a class="button secondary small" href="https://colab.research.google.com/github/sarayurkotha/prompt-engineering-study-finance/blob/main/notebooks/leaderboard.ipynb">Open in Colab</a>
+            </div>
+          </article>
+          <article class="focus-card project-card">
+            <span class="card-index">03</span>
+            <h3>RAG System for Banking Regulation Q&amp;A</h3>
+            <p>
+              A retrieval-augmented generation system that answers questions about
+              banking regulation documents with grounded, sourced answers, the LLM can
+              only answer from documents provided, with no hallucination on regulatory facts.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">RAG</span>
+              <span class="tag">LLMs</span>
+            </div>
+            <div class="project-links">
+              <a class="button secondary small" href="https://github.com/sarayurkotha/rag-banking-regulation-qa">View Code</a>
+              <a class="button secondary small" href="https://github.com/sarayurkotha/rag-banking-regulation-qa#readme">README</a>
+              <a class="button secondary small" href="https://colab.research.google.com/github/sarayurkotha/rag-banking-regulation-qa/blob/main/notebooks/demo.ipynb">Open in Colab</a>
+            </div>
+          </article>
         </div>
       </section>
 
